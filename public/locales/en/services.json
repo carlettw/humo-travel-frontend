@@ -1,0 +1,33 @@
+{
+  "eyebrow": "What we do",
+  "title": "Every worry about the trip is ours",
+  "subtitle": "From planning to coming home, we're with you at every step",
+  "meta_title": "Services — Humo Travel",
+  "meta_description": "Humo Travel services: tours, transport, visa support, insurance and corporate trips.",
+  "items": {
+    "transportation": {
+      "title": "Transport",
+      "text": "Airport pickups, intercity rides and private trips in comfortable cars with experienced drivers."
+    },
+    "visa_support": {
+      "title": "Visa support",
+      "text": "We explain which documents you need and help with the paperwork."
+    },
+    "tours": {
+      "title": "Tours",
+      "text": "In a group or on your own: ready-made routes to fit your time and budget."
+    },
+    "itineraries": {
+      "title": "Personal itinerary",
+      "text": "Tell us what you want — we'll build a detailed day-by-day plan."
+    },
+    "insurance": {
+      "title": "Insurance",
+      "text": "Travel insurance so you can stay calm if something unexpected happens."
+    },
+    "corporate": {
+      "title": "For companies",
+      "text": "Team trips, conferences and events organized from start to finish."
+    }
+  }
+}

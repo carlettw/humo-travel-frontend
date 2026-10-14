@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "eyebrow": "Humo Travel — baxt sari parvoz",
+    "slide_1_title": "Sayohat — baxtga parvoz",
+    "slide_1_subtitle": "Humo qushi kabi yengil, erkin va xotirjam yo'lga chiqing",
+    "slide_2_title": "Dunyo sizni kutmoqda",
+    "slide_2_subtitle": "Yo'lga chiqing, qolganini biz o'z zimmamizga olamiz",
+    "slide_3_title": "Bir qaror — mukammal ta'til",
+    "slide_3_subtitle": "Marshrut, mehmonxona, transport va gid — hammasi tayyor",
+    "slide_4_title": "Eng yaxshi damlar yo'lda tug'iladi",
+    "slide_4_subtitle": "Sizga chiroyli xotiralar kerak, tashvishlarni biz hal qilamiz",
+    "slide_5_title": "Do'stlar bilan, oila bilan yoki yolg'iz",
+    "slide_5_subtitle": "Har qanday tarkib va byudjet uchun mos yo'nalish topamiz",
+    "slide_6_title": "Bugun orzu, ertaga safar",
+    "slide_6_subtitle": "Birinchi qadamni aynan hozir qo'ying",
+    "cta_primary": "Turlarni ko'rish",
+    "cta_secondary": "Bog'lanish",
+    "search_placeholder": "Qayerga borishni xohlaysiz?",
+    "search_button": "Topish",
+    "search_destinations_label": "Yo'nalishlar",
+    "search_tours_label": "Turlar",
+    "search_no_results": "Hozircha hech narsa topilmadi"
+  },
+  "popular": {
+    "eyebrow": "Eng ko'p tanlanganlar",
+    "title": "Sayohatchilar sevgan turlar",
+    "days_short": "kun",
+    "view": "Ko'rish",
+    "view_all": "Hammasini ko'rish",
+    "nights_short": "kecha"
+  },
+  "destinations": {
+    "eyebrow": "Yo'nalishlar",
+    "title": "Qayerga uchamiz?",
+    "subtitle": "Ro'yxatdan o'zingizga yoqqan manzilni tanlang",
+    "tours_count": "ta tur",
+    "explore": "Ochish",
+    "view_all": "Barcha manzillar"
+  },
+  "stats": {
+    "years": "yil tajriba",
+    "satisfaction": "mamnun mijozlar",
+    "adventures": "o'tkazilgan sayohat",
+    "travelers": "sayohatchi"
+  },
+  "testimonials": {
+    "eyebrow": "Sayohatchilar so'zi",
+    "title": "Ular nima deyishdi?"
+  },
+  "why": {
+    "eyebrow": "Nega Humo?",
+    "title": "Yo'ldan oldin ham, yo'lda ham yoningizdamiz",
+    "i1_title": "Shaffof narx",
+    "i1_text": "Ko'rsatilgan narx — yakuniy narx. Yashirin to'lovlar yo'q.",
+    "i2_title": "Xotirjam safar",
+    "i2_text": "Tajribali jamoa va tekshirilgan hamkorlar har bosqichda ishonch beradi.",
+    "i3_title": "Hammasi bir joyda",
+    "i3_text": "Transport, joylashtirish, gid va sug'urta — bitta buyurtma bilan.",
+    "i4_title": "Doim aloqada",
+    "i4_text": "Savol tug'ilsa, istalgan vaqtda javob beramiz."
+  },
+  "cta": {
+    "title": "Birinchi qadamni qo'yamizmi?",
+    "subtitle": "Yozing yoki qo'ng'iroq qiling — sizga mos safarni birgalikda tanlaymiz.",
+    "phone": "Qo'ng'iroq qiling",
+    "office": "Ofisimiz",
+    "email": "Xat yozing",
+    "button": "Bog'lanish"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Sayohat haqida foydali o'qishlar",
+    "read_more": "O'qish",
+    "view_all": "Hamma maqolalar",
+    "min_read": "daqiqa o'qish",
+    "empty": "Maqolalar tez orada paydo bo'ladi",
+    "back": "Blogga qaytish",
+    "page_title": "Humo blogi"
+  }
+}

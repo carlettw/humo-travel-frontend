@@ -1,0 +1,33 @@
+{
+  "eyebrow": "Nima qilamiz",
+  "title": "Safarning barcha tashvishi bizda",
+  "subtitle": "Rejalashtirishdan qaytishgacha — har bosqichda yoningizdamiz",
+  "meta_title": "Xizmatlar — Humo Travel",
+  "meta_description": "Humo Travel xizmatlari: turlar, transport, viza yordami, sug'urta va korporativ safarlar.",
+  "items": {
+    "transportation": {
+      "title": "Transport",
+      "text": "Aeroportdan kutib olish, shaharlararo yo'l va qulay mashinada shaxsiy safar — tajribali haydovchilar bilan."
+    },
+    "visa_support": {
+      "title": "Viza yordami",
+      "text": "Qaysi hujjatlar kerakligini tushuntiramiz va rasmiylashtirishda yordam beramiz."
+    },
+    "tours": {
+      "title": "Turlar",
+      "text": "Guruh bilan yoki alohida: vaqtingiz va byudjetingizga mos tayyor yo'nalishlar."
+    },
+    "itineraries": {
+      "title": "Shaxsiy dastur",
+      "text": "Xohishingizni ayting — kunma-kun batafsil dastur tuzib beramiz."
+    },
+    "insurance": {
+      "title": "Sug'urta",
+      "text": "Kutilmagan holatlarda xotirjam bo'lishingiz uchun sayohat sug'urtasi."
+    },
+    "corporate": {
+      "title": "Kompaniyalar uchun",
+      "text": "Jamoaviy sayohat, konferensiya va tadbirlarni boshidan oxirigacha tashkil qilamiz."
+    }
+  }
+}

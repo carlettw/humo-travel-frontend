@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "eyebrow": "Humo Travel — a flight toward happiness",
+    "slide_1_title": "Travel is a flight toward happiness",
+    "slide_1_subtitle": "Journey light, free and carefree, like the legendary Humo bird",
+    "slide_2_title": "The world is waiting",
+    "slide_2_subtitle": "Set off — we'll take care of the rest",
+    "slide_3_title": "One decision, a perfect holiday",
+    "slide_3_subtitle": "Route, hotel, transport and guide — all ready for you",
+    "slide_4_title": "The best moments are born on the road",
+    "slide_4_subtitle": "You bring the memories, we handle the worries",
+    "slide_5_title": "With friends, family or solo",
+    "slide_5_subtitle": "We'll find a route for any group and budget",
+    "slide_6_title": "A dream today, a trip tomorrow",
+    "slide_6_subtitle": "Take the first step right now",
+    "cta_primary": "View tours",
+    "cta_secondary": "Get in touch",
+    "search_placeholder": "Where would you like to go?",
+    "search_button": "Find",
+    "search_destinations_label": "Destinations",
+    "search_tours_label": "Tours",
+    "search_no_results": "Nothing found yet"
+  },
+  "popular": {
+    "eyebrow": "Most chosen",
+    "title": "Tours travelers love",
+    "days_short": "days",
+    "view": "View",
+    "view_all": "View all",
+    "nights_short": "nights"
+  },
+  "destinations": {
+    "eyebrow": "Destinations",
+    "title": "Where shall we fly?",
+    "subtitle": "Pick the place that speaks to you",
+    "tours_count": "tours",
+    "explore": "Open",
+    "view_all": "All destinations"
+  },
+  "stats": {
+    "years": "years of experience",
+    "satisfaction": "happy customers",
+    "adventures": "trips completed",
+    "travelers": "travelers"
+  },
+  "testimonials": {
+    "eyebrow": "Traveler voices",
+    "title": "What do they say?"
+  },
+  "why": {
+    "eyebrow": "Why Humo?",
+    "title": "By your side before and during the trip",
+    "i1_title": "Transparent pricing",
+    "i1_text": "The price you see is the final price. No hidden fees.",
+    "i2_title": "Worry-free trips",
+    "i2_text": "An experienced team and vetted partners give you confidence at every step.",
+    "i3_title": "Everything in one place",
+    "i3_text": "Transport, stays, guide and insurance in a single booking.",
+    "i4_title": "Always in touch",
+    "i4_text": "If a question comes up, we answer any time."
+  },
+  "cta": {
+    "title": "Shall we take the first step?",
+    "subtitle": "Write or call — we'll choose the right trip together.",
+    "phone": "Call us",
+    "office": "Our office",
+    "email": "Write to us",
+    "button": "Contact us"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Useful reads about travel",
+    "read_more": "Read",
+    "view_all": "All articles",
+    "min_read": "min read",
+    "empty": "Articles are coming soon",
+    "back": "Back to blog",
+    "page_title": "Humo blog"
+  }
+}

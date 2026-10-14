@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "tours": "Turlar",
+    "about": "Biz haqimizda",
+    "service": "Xizmatlar",
+    "contact": "Aloqa",
+    "login": "Kirish",
+    "book": "Tur band qilish",
+    "admin_panel": "Admin panel",
+    "profile": "Mening profilim",
+    "logout": "Chiqish",
+    "blog": "Blog"
+  },
+  "footer": {
+    "about": "Humo Travel — sayohatingizni tashvishsiz va esda qolarli qiladigan kompaniya. Yo'lga chiqing, qolganini bizga qo'yib bering.",
+    "quick_links": "Tezkor havolalar",
+    "contact": "Aloqa",
+    "address": "Registon ko'chasi, Samarqand",
+    "follow": "Ijtimoiy tarmoqlarda",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "links": "Havolalar",
+    "services": "Xizmatlar"
+  }
+}
