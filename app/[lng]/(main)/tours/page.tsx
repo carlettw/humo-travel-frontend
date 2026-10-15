@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title,
             description,
             url: "/tours",
-            images: [{ url: "/images/tours_image.png", width: 1200, height: 630, alt: title }],
+            images: [{ url: "/images/tours_image.jpg", width: 1200, height: 630, alt: title }],
         },
     };
 }
@@ -63,7 +63,7 @@ export default async function ToursPage({ params, searchParams }: Props) {
         <div className="min-h-screen bg-background pb-20">
             <div className="relative min-h-[60vh] md:min-h-screen flex items-center justify-center overflow-hidden -mx-4 mb-12">
                 <img
-                    src="/images/tours_image.png"
+                    src="/images/tours_image.jpg"
                     alt={t("title")}
                     className="absolute inset-0 h-full w-full object-cover animate-kenburns"
                 />

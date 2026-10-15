@@ -94,7 +94,7 @@ export default function LoginPage() {
         return (
             <div className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
                 <img
-                    src="/images/login_image.png"
+                    src="/images/login_image.jpg"
                     alt=""
                     className="absolute inset-0 h-full w-full object-cover"
                 />
@@ -107,7 +107,7 @@ export default function LoginPage() {
     return (
         <div className="relative min-h-screen flex items-center justify-center px-4 py-28 overflow-hidden">
             <img
-                src="/images/login_image.png"
+                src="/images/login_image.jpg"
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover"
             />

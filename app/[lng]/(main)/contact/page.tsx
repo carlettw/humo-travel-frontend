@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title,
             description,
             url: "/contact",
-            images: [{ url: "/images/contact_image.png", width: 1200, height: 630, alt: title }],
+            images: [{ url: "/images/contact_image.jpg", width: 1200, height: 630, alt: title }],
         },
     };
 }
@@ -43,7 +43,7 @@ export default async function ContactPage({ params }: Props) {
         <div className="min-h-screen bg-background">
             <div className="relative min-h-screen flex items-center justify-center overflow-hidden mb-16">
                 <img
-                    src="/images/contact_image.png"
+                    src="/images/contact_image.jpg"
                     alt={t("title")}
                     className="absolute inset-0 h-full w-full object-cover animate-kenburns"
                 />

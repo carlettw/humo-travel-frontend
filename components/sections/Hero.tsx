@@ -30,12 +30,12 @@ export function Hero() {
         <section className="relative min-h-[100svh] flex flex-col text-white">
             <div className="absolute inset-0 overflow-hidden">
                 <Image
-                    src="/images/hero_image.png"
+                    src="/images/hero_image.jpg"
                     alt="Humo Travel"
                     fill
                     priority
                     sizes="100vw"
-                    className="object-cover animate-kenburns"
+                    className="object-cover object-[50%_38%] animate-kenburns"
                 />
                 <div className="absolute inset-0 bg-linear-to-b from-primary/70 via-black/45 to-black/70" />
             </div>

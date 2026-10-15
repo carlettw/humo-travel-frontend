@@ -106,7 +106,7 @@ export async function generateMetadata(): Promise<Metadata> {
 
       images: [
         {
-          url: "/images/hero_image.png",
+          url: "/images/hero_image.jpg",
           width: 1200,
           height: 630,
           alt: "Humo Travel — baxt sari sayohat",
@@ -119,7 +119,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: "Humo Travel — baxt sari sayohat",
       description:
         "Humo Travel bilan sayohatni tashvishsiz boshlang: tayyor turlar va to'liq xizmat bir joyda.",
-      images: ["/images/hero_image.png"],
+      images: ["/images/hero_image.jpg"],
     },
 
     icons: {

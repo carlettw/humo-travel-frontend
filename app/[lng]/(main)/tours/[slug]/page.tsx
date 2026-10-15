@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const title = localizedText(tour.title, lng);
     const description =
         localizedText(tour.short_description ?? tour.description, lng) ?? title;
-    const image = getMediaUrl(tour.cover_image) ?? "/images/tours_image.png";
+    const image = getMediaUrl(tour.cover_image) ?? "/images/tours_image.jpg";
     const countryName = tour.countries?.[0] ? localizedText(tour.countries[0].name, lng) : "";
 
     return {
