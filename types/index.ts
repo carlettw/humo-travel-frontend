@@ -271,16 +271,3 @@ export interface SiteStats {
     completed_trips: number;
     happy_travelers: number;
 }
-
-export interface BlogListItem {
-    id: string;
-    title: string;
-    slug: string;
-    cover_image: string | null;
-    read_time_minutes: number | null;
-    published_at: string | null;
-}
-
-export interface BlogDetail extends BlogListItem {
-    content: string;
-}

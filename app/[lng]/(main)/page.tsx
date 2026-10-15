@@ -4,7 +4,6 @@ import { PopularTours } from "@/components/sections/PopularTours";
 import { Destinations } from "@/components/sections/Destinations";
 import { Stats } from "@/components/sections/Stats";
 import { Testimonials } from "@/components/sections/Testimonials";
-import { BlogSection } from "@/components/sections/BlogSection";
 import { CtaSection } from "@/components/sections/CtaSection";
 import { getHomePageData } from "@/lib/home-data";
 import { Reveal } from "@/components/shared/Reveal";
@@ -15,7 +14,7 @@ interface Props {
 
 export default async function Home({ params }: Props) {
   const { lng } = await params;
-  const { featuredTours, totalTours, countries, reviews, siteStats, blogs } = await getHomePageData(lng);
+  const { featuredTours, totalTours, countries, reviews, siteStats } = await getHomePageData(lng);
 
   return (
     <>
@@ -35,7 +34,6 @@ export default async function Home({ params }: Props) {
           </div>
         </div>
       )}
-      <BlogSection posts={blogs} lng={lng} />
       <CtaSection lng={lng} />
     </>
   );

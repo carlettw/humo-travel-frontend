@@ -66,15 +66,5 @@
     "office": "Ofisimiz",
     "email": "Xat yozing",
     "button": "Bog'lanish"
-  },
-  "blog": {
-    "eyebrow": "Blog",
-    "title": "Sayohat haqida foydali o'qishlar",
-    "read_more": "O'qish",
-    "view_all": "Hamma maqolalar",
-    "min_read": "daqiqa o'qish",
-    "empty": "Maqolalar tez orada paydo bo'ladi",
-    "back": "Blogga qaytish",
-    "page_title": "Humo blogi"
   }
 }

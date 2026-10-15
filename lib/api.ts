@@ -5,7 +5,7 @@ import type {
     Tour, Country, Destination, Booking, Review, PaginatedResponse,
     AdminTourDetail, TourPayload,
     LocalizedText,
-    SiteStats, BlogListItem, BlogDetail } from "@/types";
+    SiteStats } from "@/types";
 
 import { API_URL, getApiBase } from "@/lib/api-config";
 
@@ -376,9 +376,3 @@ export const getContactMessages = () =>
 
 export const markMessageRead = (id: string) =>
     api.patch<unknown, ContactMessage>(`/contact-messages/${id}`, { is_read: true });
-
-export const getBlogs = (lang: string) =>
-    api.get<unknown, BlogListItem[]>("/blogs", { params: { lang } });
-
-export const getBlogBySlug = (slug: string, lang: string) =>
-    api.get<unknown, BlogDetail>(`/blogs/${slug}`, { params: { lang } });

@@ -9,7 +9,6 @@ const LINKS = [
     { href: "/", key: "nav.home" },
     { href: "/about", key: "nav.about" },
     { href: "/tours", key: "nav.tours" },
-    { href: "/blog", key: "nav.blog" },
 ];
 
 const SERVICE_LINKS = [

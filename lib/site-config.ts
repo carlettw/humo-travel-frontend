@@ -25,9 +25,9 @@ export const siteConfig = {
     },
 
     contact: {
-        email: "info@humotravel.uz",
-        phone: "+998 90 000 00 00",
-        phoneSecondary: "+998 71 200 00 00",
+        email: "humotravel01@gmail.com",
+        phone: "+998 97 897 97 22",
+        phoneSecondary: "",
         address: {
             uz: "Samarqand, O'zbekiston",
             ru: "Самарканд, Узбекистан",
@@ -36,12 +36,12 @@ export const siteConfig = {
     },
 
     social: {
-        instagram: "https://instagram.com/humotravel",
-        facebook: "https://facebook.com/humotravel",
-        telegram: "https://t.me/humotravel",
+        instagram: "https://instagram.com/humo_travel",
+        facebook: "",
+        telegram: "https://t.me/humo_travell",
         youtube: "",
         tiktok: "",
-        whatsapp: "",
+        whatsapp: "https://wa.me/998978979722",
     },
 };
 

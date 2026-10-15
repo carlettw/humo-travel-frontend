@@ -26,7 +26,6 @@ const NAV_LINKS = [
   { href: "/tours", key: "nav.tours" },
   { href: "/about", key: "nav.about" },
   { href: "/services", key: "nav.service" },
-  { href: "/blog", key: "nav.blog" },
   { href: "/contact", key: "nav.contact" },
 ];
 

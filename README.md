@@ -34,7 +34,7 @@ npm install
 Loyiha ildizida `.env.local` fayl yarating:
 
 \`\`\`bash
-NEXT_PUBLIC_API_URL=https://YANGI-BACKEND-MANZILI/api/v1
+NEXT_PUBLIC_API_URL=https://humo-travel-backend.onrender.com/api/v1
 \`\`\`
 
 Bu — backend API manzili (masalan Render.com'dagi FastAPI/Express server). Barcha
@@ -141,4 +141,4 @@ avtomatik ko'rsatiladi va so'rov qayta uriniladi.
 
 Loyiha Vercel, Render yoki boshqa Next.js'ni qo'llab-quvvatlaydigan istalgan
 platformaga joylashtirilishi mumkin. Muhim: `NEXT_PUBLIC_API_URL` muhit
-o'zgaruvchisini deploy platformasida ham sozlashni unutmang."# humo-travel-frontend" 
+o'zgaruvchisini deploy platformasida ham sozlashni unutmang.

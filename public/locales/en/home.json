@@ -66,15 +66,5 @@
     "office": "Our office",
     "email": "Write to us",
     "button": "Contact us"
-  },
-  "blog": {
-    "eyebrow": "Blog",
-    "title": "Useful reads about travel",
-    "read_more": "Read",
-    "view_all": "All articles",
-    "min_read": "min read",
-    "empty": "Articles are coming soon",
-    "back": "Back to blog",
-    "page_title": "Humo blog"
   }
 }

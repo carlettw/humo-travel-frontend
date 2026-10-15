@@ -1,5 +1,5 @@
-import { getTours, getCountries, getAllReviews, getSiteStats, getBlogs } from "@/lib/api";
-import type { Tour, Country, Review, SiteStats, BlogListItem } from "@/types";
+import { getTours, getCountries, getAllReviews, getSiteStats } from "@/lib/api";
+import type { Tour, Country, Review, SiteStats } from "@/types";
 
 export interface HomePageData {
     featuredTours: Tour[];
@@ -7,7 +7,6 @@ export interface HomePageData {
     countries: (Country & { tourCount: number })[];
     reviews: Review[];
     siteStats: SiteStats | null;
-    blogs: BlogListItem[];
 }
 
 export async function getHomePageData(lng: string): Promise<HomePageData> {
@@ -16,20 +15,14 @@ export async function getHomePageData(lng: string): Promise<HomePageData> {
     let countries: (Country & { tourCount: number })[] = [];
     let reviews: Review[] = [];
     let siteStats: SiteStats | null = null;
-    let blogs: BlogListItem[] = [];
 
-    const [toursRes, countryList, allReviews, statsRes, featuredRes, blogsRes] = await Promise.allSettled([
+    const [toursRes, countryList, allReviews, statsRes, featuredRes] = await Promise.allSettled([
         getTours({ lang: lng, page_size: 6 }),
         getCountries(),
         getAllReviews(),
         getSiteStats(),
         getTours({ lang: lng, featured: "true", page_size: 6 }),
-        getBlogs(lng),
     ]);
-
-    if (blogsRes.status === "fulfilled" && Array.isArray(blogsRes.value)) {
-        blogs = blogsRes.value.slice(0, 3);
-    }
 
     if (toursRes.status === "fulfilled" && toursRes.value) {
         featuredTours = toursRes.value.items || [];
@@ -60,5 +53,5 @@ export async function getHomePageData(lng: string): Promise<HomePageData> {
         console.error("getSiteStats xatosi:", statsRes.reason);
     }
 
-    return { featuredTours, totalTours, countries, reviews, siteStats, blogs };
+    return { featuredTours, totalTours, countries, reviews, siteStats };
 }
